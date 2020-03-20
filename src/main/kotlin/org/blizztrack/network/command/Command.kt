@@ -2,17 +2,14 @@ package org.blizztrack.network.command
 
 class Command {
     var mode = ""
-        get() = field
         private set(value) {
             field = value
         }
     var product: String = ""
-        get() = field
         private set(value) {
             field = value
         }
     var file: String = ""
-        public get() = field
         private set(value) {
             field = value
         }
